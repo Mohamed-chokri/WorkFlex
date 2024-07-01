@@ -1,0 +1,53 @@
+
+  
+  .loginpage {
+    width: 100%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 0; 
+  padding: 0; 
+  background: url('/images/gradient-connection-background_23-2150519259.avif') no-repeat center center fixed; 
+  background-size: cover; 
+  height: 100vh; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  }
+  
+  .loginform {
+    
+    width: 400px;
+    background-color: rgba(192, 197, 200, 0.5); /* Semi-transparent background */
+    padding: 80px;
+  }
+  
+  .form_control {
+    border-radius: 10px;
+    border: 0px;
+    height: 30px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* Solid white with 90% opacity */
+  }
+  .btn-control {
+    border: none;
+    width: 120px; 
+    height: 40px; 
+    border-radius: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #61a964; 
+    color: white; 
+    font-size: 16px; 
+    cursor: pointer;
+    margin: 20px auto; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .btn-control:hover {
+    background-color: #45a049; 
+  }
+  .errormsg{
+    color: rgb(215, 0, 0);
+  }
